@@ -155,19 +155,15 @@ div.offers{
 }
 
 h3,.description{
-    color: white;
     position: relative;
     font-size: 12px;
 }
 .main-article h4.description{
     display: none;
     margin-top: 20px;
-    
 }
-
 .main-article:hover h4.description{
-    display: block;
-    
+  display: block;
 }
 
 .article{
@@ -452,6 +448,11 @@ footer .information{
 @media (min-width: 769px){
     main section div.products article{
         width: 22%;
-        display: none;
+    }
+    div.top-header{
+        position: relative;
+    }
+    div.top-header .logo{
+        display: block;
     }
 }
